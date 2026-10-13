@@ -1,0 +1,12 @@
+{
+    "name": "empirex/invoice-ledger",
+    "description": "PHP 8.3 invoice ledger: integer money, VAT, series numbering, plan limits, and an e-invoice adapter.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{"name": "EMPIREX Tech", "homepage": "https://empirex.tech"}],
+    "require": {"php": "^8.3"},
+    "require-dev": {"phpunit/phpunit": "^11.5"},
+    "autoload": {"psr-4": {"EmpireX\\InvoiceLedger\\": "src/"}},
+    "autoload-dev": {"psr-4": {"EmpireX\\InvoiceLedger\\Tests\\": "tests/"}},
+    "scripts": {"test": "phpunit --colors=always"}
+}
